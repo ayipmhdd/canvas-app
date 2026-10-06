@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Grafika Komputer - Polindra Campus 2D</title>
+  <meta name="description" content="Aplikasi WebGL 2D interaktif berbasis Three.js menampilkan komposisi geometris kampus Polindra dalam antarmuka modern design workspace.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Modular Stylesheet -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <!-- Canvas Container with CSS Dotted Pattern -->
+  <div id="canvas-container">
+    <canvas id="three-canvas"></canvas>
+  </div>
+
+  <!-- UI Overlay: Mounting Root for Injected Components -->
+  <div class="ui-overlay" id="ui-overlay"></div>
+
+  <!-- Toast Notification Mount -->
+  <div id="toast-mount"></div>
+
+  <!-- Main ES6 JavaScript Entry Point with cache-buster -->
+  <script type="module" src="./js/main.js?v=3"></script>
+</body>
+</html>
